@@ -1,0 +1,28 @@
+.child {
+  padding: 1.2rem;
+  border: 2px solid #e7b0b0;
+  background: linear-gradient(#ea8ec1, #e7b0b0);
+  border-radius: 6px;
+  margin: 1rem;
+  min-height: 30vh;
+}
+
+.child-btn {
+  padding: 0.6rem 1rem;
+  border: 2px solid #c74545;
+  background: #c74545;
+  color: white;
+  font-weight: 400;
+}
+
+.child-btn:hover {
+  color: #c74545;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.child-name {
+  color: green;
+  display: inline;
+}

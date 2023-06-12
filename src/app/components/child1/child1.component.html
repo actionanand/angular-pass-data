@@ -1,0 +1,17 @@
+<div class="child">
+  <h1>
+    This is
+    <section class="child-name">Child 1</section>
+    component
+  </h1>
+  <h2>
+    But
+    <section class="child-name">{{ fruitIn }}</section>
+    came from parent through
+    <section class="child-name">@Input()</section>
+  </h2>
+
+  <button (click)="onSendDataToParent()" class="child-btn">
+    Send '{{ fruitBoolean ? 'Mango' : 'Apple' }}' to Parent
+  </button>
+</div>
