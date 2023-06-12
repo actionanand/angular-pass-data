@@ -1,4 +1,4 @@
-# Angular v16 - A Milestone Release Project
+# Project is about @input and @output
 
 <!-- prettier-ignore -->
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
