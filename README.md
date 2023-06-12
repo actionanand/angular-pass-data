@@ -276,3 +276,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. [Is there a compatibility list for Angular / Angular-CLI and Node.js? - stackoverflow](https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js)
 2. [Version compatibility - Angular official](https://angular.io/guide/versions)
 3. [Angular version node compatibility - gist](https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3)
+
+- [StackBlitz for angular property binding](https://stackblitz.com/edit/angular-ivy-ucidce)

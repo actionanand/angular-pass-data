@@ -5,7 +5,8 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    loadComponent: () => import('./default/default.component').then((m) => m.DefaultComponent),
+    loadComponent: () =>
+      import('./pages/angular-binding/angular-binding.component').then(m => m.AngularBindingComponent),
     title: 'Angular Default Home',
   },
   { path: '**', redirectTo: '' },

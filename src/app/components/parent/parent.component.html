@@ -1,0 +1,16 @@
+<div class="parent-wrap">
+  <h1>
+    This is
+    <section class="parent-name">Parent</section>
+    component
+  </h1>
+  <h2 *ngIf="fromChild === ''">This data will change once child sends new data to parent</h2>
+  <h2 *ngIf="fromChild !== ''">
+    This
+    <section class="parent-name">{{ fromChild }}</section>
+    came from child through
+    <section class="parent-name">@Output()</section>
+  </h2>
+
+  <app-child1 (fruitOut)="onListenToChild($event)" [fruitIn]="name"></app-child1>
+</div>
