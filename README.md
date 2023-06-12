@@ -235,6 +235,21 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 
    7. For more, please [check](https://prettier.io/docs/en/ignore.html)
 
+7. Husky Non-executable error in cloned repo
+
+   ```shell
+   hint: The '.husky/pre-commit' hook was ignored because it's not set as executable.
+   hint: You can disable this warning with `git config advice.ignoredHook false`.
+   ```
+
+   ![Alt text](image.png)
+
+   To fix this, execute the below command
+
+   ```shell
+     chmod ug+x .husky/*
+   ```
+
 ## Resources
 
 1. [Angular v16 is here! - Official](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)
