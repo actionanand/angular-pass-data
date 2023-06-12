@@ -1,4 +1,4 @@
-# Angular v16 - A Milestone Release Project
+# Project is about @input and @output
 
 <!-- prettier-ignore -->
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
@@ -234,6 +234,21 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
    ```
 
    7. For more, please [check](https://prettier.io/docs/en/ignore.html)
+
+7. Husky Non-executable error in cloned repo
+
+   ```shell
+   hint: The '.husky/pre-commit' hook was ignored because it's not set as executable.
+   hint: You can disable this warning with `git config advice.ignoredHook false`.
+   ```
+
+   ![image](https://github.com/actionanand/angular-pass-data/assets/46064269/7b35bc09-03e9-437c-bdbd-e82b46fed06c)
+
+   To fix this, execute the below command
+
+   ```shell
+     chmod ug+x .husky/*
+   ```
 
 ## Resources
 
