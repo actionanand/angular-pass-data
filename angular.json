@@ -62,7 +62,8 @@
             },
             "development": {
               "browserTarget": "angular-pass-data:build:development",
-              "port": 4213
+              "port": 4213,
+              "disableHostCheck": true
             }
           },
           "defaultConfiguration": "development"
